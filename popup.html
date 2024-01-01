@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="popup.css" />
+    <title>Bulk URL Opener</title>
+  </head>
+  <body>
+    <div class="main">
+      <textarea
+        name="mytext"
+        id="inputtext"
+        cols="40"
+        rows="12"
+        placeholder="Insert Bulk URLs Here"
+      ></textarea>
+      <div class="buttonbox">
+        <button id="Open">Open All URLs</button>
+        <button id="ExtractDomains">Extract Domains</button>
+      </div>
+      <input type="checkbox" id="Google" name="Google" value="" />
+      <label for="Google">Search On Google</label>
+      <p><span id="counter">0</span> Link Found</p>
+    </div>
+  </body>
+  <script src="popup.js" defer></script>
+</html>
